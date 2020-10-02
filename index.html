@@ -10,128 +10,22 @@
 <body>
     <header>
         <h1>Awesome Startup Employee Directory</h1>
-        <input type="text" class="search" placeholder="Enter a name or username">
+        <input type="text" class="search" onkeyup="filter()" placeholder="Enter a name or username">
     </header>
     <main class="grid-container">
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/member-1.jpg" alt="Employee photo" class="avatar">
-            <div class="text-container">
-                <h2 class="name">Haleigh Macchiarella</h2>
-                <p class="email">dtucker@yakitri.edu</p>
-                <p class="city">Chicago</p>
-            </div>
-        </div>
+        
     </main>
+    <!-- <p class="modal-close">x</p> -->
+    
     <div class="overlay hidden">
         <div class="modal">
-            <!-- <p class="modal-close">x</p> -->
             <button class="modal-close">X</button>
             <div class="modal-content">
                 <!-- modal information will be added with JS here -->
-                <img src="images/member-1.jpg" alt="Employee Photo" class="avatar">
-                <div class="text-container">
-                    <button class="left"><</button>
-                    <h2 class="name">Haleigh Macchiarella</h2>
-                    <button class="right">></button>
-                    <p class="email">dtucker@yakitri.edu</p>
-                    <p class="city">Chicago</p>
-                    <hr class="line" />
-                    <p class="phone">(593) 364-3249</p>
-                    <p class="address">123 Anywhere St, WV 84814</p>
-                    <p class="birthday">Birthday: 01/04/85</p>
-                </div>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
