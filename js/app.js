@@ -91,9 +91,9 @@ function displayModal(index) {
     modalContent.addEventListener('click', (e) => {
         let arrowDirection;
             if(e.target === leftButton) {
-                displayModal(getLeft(index));
+                displayModal(getPrevious(index));
             } else if (e.target === rightButton) {
-                arrowDirection = getRight(index);
+                arrowDirection = getNext(index);
                 displayModal(arrowDirection);
             }
     });
@@ -102,7 +102,7 @@ function displayModal(index) {
 //===============================================
 //                  Functions
 //===============================================
-function getLeft(index) {
+function getPrevious(index) {
     if (index > 0) {
         index--;
     } else {
@@ -110,7 +110,7 @@ function getLeft(index) {
     }
     return index;
 }
-function getRight(index) {
+function getNext(index) {
     if (index < 11) {
         index++;
     } else {
@@ -157,4 +157,3 @@ container.addEventListener('click', (e) => {
 modalClose.addEventListener('click', () => {
     overlay.classList.add('hidden');
 });
-
